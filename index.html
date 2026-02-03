@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Lover ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🐾 Animal Lover <span>❤️</span></h1>
+    <p>Love Animals, Save Nature</p>
+</header>
+
+<!-- SLIDER -->
+<div class="slider">
+    <img id="sliderImage" src="https://images.unsplash.com/photo-1546182990-dffeafbe841d">
+</div>
+
+<h2 class="section-title">Click an Animal to Know More</h2>
+
+<!-- ANIMAL CARDS -->
+<div class="animals">
+    <div class="card" onclick="showAnimal('Lion','Africa','King of the jungle, lives in grasslands and savannas.')">
+        <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d">
+        <h3>Lion ❤️</h3>
+    </div>
+
+    <div class="card" onclick="showAnimal('Elephant','Asia & Africa','Largest land animal, very intelligent and emotional.')">
+        <img src="https://images.unsplash.com/photo-1508675801651-7d9b08a6f3a2">
+        <h3>Elephant ❤️</h3>
+    </div>
+
+    <div class="card" onclick="showAnimal('Tiger','India & Asia','Powerful predator, symbol of strength and courage.')">
+        <img src="https://images.unsplash.com/photo-1599490219385-1e38b7d01c9c">
+        <h3>Tiger ❤️</h3>
+    </div>
+
+    <div class="card" onclick="showAnimal('Dog','Worldwide','Most loyal animal, best friend of humans.')">
+        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a">
+        <h3>Dog ❤️</h3>
+    </div>
+</div>
+
+<!-- DETAILS SECTION -->
+<div class="details" id="details">
+    <h2 id="animalName"></h2>
+    <p><strong>Found In:</strong> <span id="animalPlace"></span></p>
+    <p id="animalInfo"></p>
+</div>
+
+<footer>
+    <p>Made with ❤️ by Animal Lover</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
